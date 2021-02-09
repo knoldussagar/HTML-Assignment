@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html>
+   <head>
+      <title>Assignment</title>
+      <style>
+        table, th, td {
+            text-align: left;
+            border-collapse: collapse;
+            border: 1px solid black;
+         }
+      </style>
+   </head>
+<body>
+
+<div style="width: 100%;border: 1px solid black;">
+
+<p style="color:grey;">
+<span style="font-size: 30px;color: grey;font-weight:bold;" >w3schools</span>
+<span style="color:green;font-size: 30px;font-weight:bold;">.com</span>
+ THE WORLDS'S LARGEST WEBDEVELOPER SITE</p>
+<hr>
+
+<div>
+   <a href="https://www.w3schools.com/html/default.asp" target="next"  style="color:black;font-size: 20px;">HTML</a> 
+   <a href="https://www.w3schools.com/css/default.asp" target="next" style="color:black;font-size: 20px;">CSS</a>  
+   <a href="https://www.w3schools.com/js/default.asp" target="next" style="color:black;font-size: 20px;">JAVASCRIPT</a>  
+   <a href="https://www.w3schools.com/python/default.asp" target="next" style="color:black;font-size: 20px;">PYTHON</a>
+</div>
+
+<hr>
+
+<div>
+   <h1>HTML Introduction</h1>
+   <p>HTML is the standard markup language for creating Web pages.</p>
+   <ol>
+      <li><a href="#html" style="text-decoration-line: none;color: black;" >What is HTML</a></li>
+      <li><a href="#html1" style="text-decoration-line: none;color: black;" >What is HTML element</a> </li>
+      <li><a href="#part3" style="text-decoration-line: none;color: black;" >Web Browsers</a></li>
+   </ol>
+</div>
+
+
+<div id="html">
+   <h1>What is HTML?</h1>
+   <ul>
+      <li>HTML stands for Hyper Text Markup Language</li>
+      <li>HTML is the standard markup language for creating Web pages</li>
+      <li>HTML describes the structure of a Web page</li>
+      <li>HTML consists of a series of elements</li>
+      <li>HTML elements tell the browser how to display the content</li> 
+      <li>HTML elements label pieces label pieces of content such as "this is a heading","this is paragraph","this is a link",etc</li>
+   </ul>
+</div>
+
+<div id="html1" >
+   <h1>What is an HTML element</h1>
+   <p style="font-size: 15px">An HTML element id defined by a start tag,some content ,and an end tag:</p>
+   <p><span style="color:black"><</span><span style="color:red">tagname</span><span style="color:black">></span> Content goes here...<span style="color:black"><</span><span style="color:red">/tagname</span><span style="color:black">></span></p>
+   <p style="font-size: 15px;">The HTML element is everything from the start tag to the end tag:</p>
+   <p style="font-size: 20px"><span ><</span><span style="color:red">h1</span><span >></span><bold>My First Heading</bold><span style="color:black"><</span><span style="color:red">/h1</span><span style="color:black">></span>
+</p>
+<p style="font-size: 20px"><span ><</span><span style="color:red">p</span><span >></span><bold>My first paragraph.</bold><span style="color:black"><</span><span style="color:red">/p</span><span style="color:black">></span>
+</p>
+
+</div>
+
+<div>
+   <table style="width: 80%"  >
+      <tr>
+         <th>Start tag</th>
+         <th>Element content</th>
+         <th>End tag</th>
+      </tr>
+      <tr>
+         <td><span><</span>h1></td>
+         <td>My First Heading</td>
+         <td><span><</span>/h1></td>
+      </tr>
+      <tr>
+         <td><span><</span>p></td>
+         <td>My first paragraph</td>
+         <td><span><</span>/p></td>
+      </tr>
+      <tr>
+         <td><span><</span>br></td>
+         <td>none</td>
+         <td>none</td>
+      </tr>
+   </table>
+</div>
+
+<div id="part3" >
+   <h1>Web Browsers</h1>
+   <p>
+      The purpose of Web browser (Chrome, Edge,Firefox,Safari) is to read   HTML documents and display them correctly.
+   </p>
+   <p>
+      The browser does not display HTML tag , but uses them to determine how to display the documents. 
+   </p>
+   
+   <img src="html pics.png"  width="50%"alt="Html Image" style="margin-left: 20%;"  >
+
+   <h1>Submit Review</h1>
+   <form action="/action_page.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name"  value="John" required  />
+
+      <input type="radio" name="gender" value="Male" />
+      <label>Male</label>
+
+      <input type="radio" name="gender" value="Female" />
+      <label>Female</label>
+
+      <input type="radio" name="gender" value="Other" />
+      <label>Other</label>
+      
+      <br>
+      <br>
+      <label for="rate">rate it:</label>
+      <select id="rate it" name="very good">
+        <option value="Very Good">Very Good</option>
+        <option value="Good">Good</option>
+        <option value="bad">bad</option>
+        <option value="worst">Worst</option>
+      </select>
+      <br>
+      <textarea cols="30" rows="10" >Please add a review</textarea>
+      <br><br>
+      <button type="submit">Submit</button>
+    </form>
+</div>
+<br>
+<br>
+
+
+</div>
+</body>
+</html>
